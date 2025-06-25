@@ -1,0 +1,51 @@
+1. Short Answer Questions
+Q1: Explain the primary differences between TensorFlow and PyTorch. When would you choose one over the other?
+
+The main difference lies in how they build computation graphs:
+
+TensorFlow traditionally uses static computation graphs (defined before running), which are optimized for deployment and production.
+
+PyTorch uses dynamic computation graphs (defined at runtime), making it easier and more flexible for research and experimentation.
+
+You might choose:
+
+PyTorch for rapid prototyping, debugging, or academic work due to its simplicity and Pythonic design.
+
+TensorFlow for large-scale production systems, mobile/edge deployment, or when using TensorFlow Extended (TFX) or TensorFlow Lite.
+
+
+Q2: Describe two use cases for Jupyter Notebooks in AI development.
+
+Prototyping ML Models: Jupyter Notebooks allow data scientists to experiment with datasets, tune models, and visualize performance using live code and outputs in one document.
+
+Exploratory Data Analysis (EDA): Users can load datasets, clean data, create plots (with Matplotlib/Seaborn), and generate statistics — all interactively, which is ideal before model training.
+
+
+Q3: How does spaCy enhance NLP tasks compared to basic Python string operations?
+
+While basic Python string operations (e.g., .split(), .find()) handle simple text processing, spaCy provides advanced, pre-trained NLP pipelines for tasks like:
+
+Tokenization with linguistic awareness (e.g., handling punctuation and abbreviations correctly)
+
+Named Entity Recognition (NER) to identify names, dates, organizations
+
+Part-of-speech tagging and dependency parsing for grammatical analysis
+
+This makes spaCy faster, more accurate, and suitable for real-world NLP tasks compared to manual string-based approaches.
+
+
+
+
+2. Comparative Analysis
+
+Target Applications
+Scikit-learn- Best suited for classical machine learning algorithms such as linear regression, decision trees, SVMs, clustering, etc.
+TensorFlow- Designed for deep learning and neural networks, including CNNs, RNNs, transformers, etc.
+
+Ease of Use for Beginners
+Scikit-learn Very beginner-friendly, with simple syntax and minimal setup. Ideal for learning foundational ML concepts.	
+TensorFlow-More complex, especially for deep learning. TensorFlow 2.x improved ease with Keras integration, but still more technical overall.
+
+Community Support	
+Scikit-learn- Strong academic and industrial support, especially for traditional ML. Well-documented and widely adopted.
+TensorFlow-Extremely large and active community, especially in deep learning research and production. Backed by Google.
